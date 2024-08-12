@@ -17,7 +17,13 @@
     margin-right: auto;
     border: 1px yellow;
     }
+    img[src$=".jpg"] {
+    border: 5px solid yellow;
+    }
     img[src$=".png"] {
+    border: 5px solid yellow;
+    }
+    img[src$=".gif"] {
     border: 5px solid yellow;
     }
     p {
@@ -43,6 +49,7 @@
     .nota {
       opacity: 0.5;
       background-color: white;
+      background-repeat: no-repeat;
       strong {
         color: orangered;
         background-color: white;
@@ -56,8 +63,6 @@
     }
     iframe {
       display: block;
-      border: 5px solid yellow;
-      margin: auto;
     }
     em {
       font-size: 25px;
@@ -78,106 +83,58 @@
   </style>
 </head>
 <body>
-  <!-- este é um comentário em HTML -->
-  <!-- ele não aparece na página -->
-  <!-- >:3 -> isto é um coelho -->
-  <!--  :3 -> e isto é um doguinho com bochechas -->
   <img src="img/print-ninja-logo.png" alt="Logo da Gráfica PrintNinja
     mostrando um desenho no estilo cartoon de um ninja" id="logomarca">
+  <h1>Curiosidades Sobre Ninjas</h1>
+  <p>Veja algumas curiosidades sobre os ninjas.</p>
 
-  <h1>Como se Tornar um Ninja</h1>
-  <p>
-    Sempre se inspirou nos Ninjas da TV e quer se tornar um Ninja na vida
-    real? Então você está lendo a página web certa!
+  <h2 id="armas-ninjas">Armas Ninjas</h2>
+  <p>Os ninjas usavam armas como shuriken, tesubishi, tekagi, kusarigama, arco
+    e flecha, tekko kagi, tesubishi, torinoko (bomba de fumaça). Eles também
+    eram habilidosos espadachins. Eles usaram suas armas não apenas para matar,
+    mas também para escalar paredes de pedra, como o “ashiko” (garras usadas
+    nas botas), mas que também era usado para dar chutes mortais.
   </p>
-  <p>Veja o que é necessário para a sua transformação.</p>
-
-  <h2>Os 3 Passos</h2>
-  <p class="passo">
-    <strong>1</strong> <em>Aprender a desaparecer:</em> a arte ninja de
-    Desaparecer, também conhecida como arte ninja de Teletransporte (ou,
-    quando está chovendo: arte ninja - Esqueci minhas roupas no varal) é
-    uma habilidade tática dos verdadeiros ninjas. Usando de maneira correta,
-    pode-se atingir um efeito extraordinário.
-  </p>
-  <p>
-    Quando você é abordado por alguém, ou simplesmente precisa fugir de alguém,
-    primeiro você observa o que está acontecendo à sua volta, distrai a pessoa
-    e depois desaparece, sem aviso prévio!
+  <p>O Shuriken (estrelas de arremesso), um dos arsenais mais famosos nos
+    ninjas, não tinha o propósito de matar, embora funcionasse como uma
+    arma letal. O objetivo principal era somente persuadir ou no máximo
+    ferir o inimigo.
   </p>
   <p>
-    Veja um usuário da habilidade em demonstração:
-    <!--
-      um iframe é uma forma de embutir (colocar) uma página dentro da outra...
-      neste caso, estamos colocando uma página do Youtube dentro desta página
-      dos ninjas
-    -->
-    <iframe width="420" height="315"
-      src="https://www.youtube.com/embed/roNvPhQeOcc" frameborder="0"
-      allowfullscreen></iframe>
+    Veja algumas das armas:
+    <img src="img/armas-dos-ninjas.gif">
   </p>
 
-  <p class="passo">
-    <strong>2</strong> <em>Enxergar no escuro:</em> Esta é uma arte ninja
-    totalmente furtiva e que muitos usam durante suas missões. A habilidade
-    requer um tempo de recarga de 5 minutos para ser usada e pode se usar
-    um único olho, por exemplo: um adaptado para o claro e outro para o
-    escuro, para evitar cegueira... ou os dois juntos.
-  </p>
+  <h2 id="ninjas-vs-samurais">
+    Ninjas vs. Samurais
+  </h2>
   <p>
-    Como utilizar?
-    <ol>
-      <li>Feche 1 ou os 2 olhos;</li>
-      <li>Aguarde 5 minutos para que a pupila se dilate por completo;</li>
-      <li>Hora de espiar!</li>
-    </ol>
-  </p>
-  <p class="nota">
-    <strong>Nota</strong>: Para usar essa habilidade o ambiente precisa ter
-    uma luz natural. Mesmo que estaja seja fraca, ela já é o suficiente
-    para usar esta arte ninja.
-  </p>
-  <p>Exemplos de lugares onde você pode usar a arte ninja de <strong>Ver no Escuro</strong>:
-    <ul>
-      <li>sala de cinema</li>
-      <li>corredor escuro com iluminação fraca</li>
-      <li>casa do cachorro de noite</li>
-    </ul>
+    Os dois fazem parte da história do Japão feudal, porém os samurais eram
+    nobres que seguiram o código de honra Bushido enquanto que os ninjas
+    faziam parte de uma classe econômica mais baixa. Os samurais normalmente
+    eram leais ao imperador enquanto que os ninjas poderiam ser contratados
+    por qualquer pessoa que precisasse e que pagasse por seus serviços.
+
+    <img src="img/ninja-versus-samurai.jpg" alt="Um desenho representando
+      a vestimenta de um ninja e a de um samurai">
   </p>
 
-  <p class="passo">
-    <strong>3</strong> <em>Aprender a andar sobre a água:</em> a famosa
-    Arte Ninja - Correr sobre a água, muito conhecida no mundo ninja, está
-    a menos de um passo para ser ensinada aos humanos. Sim! Essa técnica
-    requer um árduo treinamento ninja nas fontes termais para seu
-    desenvolvimento proativo.
-  </p>
+  <h2 id="ninjas-mulheres">Ninjas Mulheres</h2>
   <p>
-    Veja este vídeo para começar a compreender a técnica:
-    <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/OF4UDsc8eV4" frameborder="0"
-      allowfullscreen></iframe>
-  </p>
+    Pouca gente sabe, mas havia muitas mulheres treinadas na arte do ninjutsu.
+    Eram chamadas de “kunoichi”, e de acordo com o livro “O Ninja e sua arte
+    de luta secreto”, elas se disfarçavam geralmente como bailarinas ou
+    artistas e poderiam até seduzir seus alvos para obter informações.
 
-  <h2>Curiosidades Sobre Ninjas</h2>
-  <p>Veja algumas curiosidades sobre essa gente ligeira:</p>
-  <ul>
-    <li>
-      <!-- lembra dos links internos? eles apontam para o id de um elemento -->
-      <a href="curiosidades.html#armas-ninjas">Armas Ninjas</a>
-    </li>
-    <li>
-      <a href="curiosidades.html#ninjas-vs-samurais">Ninjas vs. Samurais</a>
-    </li>
-    <li>
-      <a href="curiosidades.html#ninjas-mulheres">Ninjas Mulheres</a>
-    </li>
-  </ul>
+    <img src="img/ninjas-mulheres.jpg" alt="Uma foto de uma mulher ninja">
+  </p>
 
   <h2>Referências</h2>
   <ul>
-    <li>Blog
-      <a href="http://minjasam.blogspot.com.br/">Tutorial de Artes Ninjas</a>
+    <li>Site
+      <a href="http://www.japaoemfoco.com/20-curiosidades-sobre-os-ninjas/">
+        Japão em foco
+      </a>
     </li>
   </ul>
   <p class="nota">
